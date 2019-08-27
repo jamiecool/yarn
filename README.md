@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://circleci.com/gh/yarnpkg/yarn"><img alt="Circle Status" src="https://circleci.com/gh/yarnpkg/yarn.svg?style=shield&circle-token=5f0a78473b0f440afb218bf2b82323cc6b3cb43f"></a>
   <a href="https://ci.appveyor.com/project/kittens/yarn/branch/master"><img alt="Appveyor Status" src="https://ci.appveyor.com/api/projects/status/0xdv8chwe2kmk463?svg=true"></a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fjamiecool%2Fyarn?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjamiecool%2Fyarn.svg?type=shield"/></a>
   <a href="https://dev.azure.com/yarnpkg/yarn/_build"><img alt="Azure Pipelines status" src="https://dev.azure.com/yarnpkg/yarn/_apis/build/status/Yarn%20Acceptance%20Tests"></a>
   <a href="https://discord.gg/yarnpkg"><img alt="Discord Chat" src="https://img.shields.io/discord/226791405589233664.svg"></a>
   <a href="http://commitizen.github.io/cz-cli/"><img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg"></a>
@@ -58,3 +59,7 @@ Yarn wouldn't exist if it wasn't for excellent prior art. Yarn has been inspired
 ## Credits
 
 Thanks to [Sam Holmes](https://github.com/samholmes) for donating the npm package name!
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjamiecool%2Fyarn.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjamiecool%2Fyarn?ref=badge_large)
