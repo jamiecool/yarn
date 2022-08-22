@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "async": "2.0.0"
-  }
+    "async": "2.6.4",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
