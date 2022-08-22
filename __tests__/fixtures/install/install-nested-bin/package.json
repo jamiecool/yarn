@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "standard": "8.4.0"
-  }
+    "standard": "11.0.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
