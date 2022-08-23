@@ -1,6 +1,12 @@
 {
   "dependencies": {
-    "eslint": "3.7.0",
-    "standard": "8.4.0"
-  }
+    "eslint": "8.0.0",
+    "standard": "11.0.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
