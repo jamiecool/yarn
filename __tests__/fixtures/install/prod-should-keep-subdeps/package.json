@@ -1,10 +1,16 @@
 {
   "dependencies": {
-    "gulp": "3.9.1"
+    "gulp": "4.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "eslint": ">=3.3.0",
     "eslint-plugin-react": "3.5.1",
     "stylelint": "^7"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
