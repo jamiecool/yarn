@@ -1,6 +1,12 @@
 {
   "dependencies": {
-    "yeoman-environment": "~1.2.7",
-    "yeoman-generator": "^0.20.3"
-  }
+    "yeoman-environment": "~1.6.0",
+    "yeoman-generator": "^5.0.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
