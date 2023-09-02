@@ -1,6 +1,12 @@
 {
   "dependencies": {
     "webpack": "1.14.0",
-    "webpack-parallel-uglify-plugin": "0.2.0"
-  }
+    "webpack-parallel-uglify-plugin": "0.2.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
