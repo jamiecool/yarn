@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "async": "2.0.0"
+    "async": "3.0.0"
   }
 }
